@@ -1,0 +1,15 @@
+.add_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_input {
+    margin-left: 1rem;
+}
+
+.add_button {
+    margin-left: 3rem;
+    width: 40rem;
+    height: 3rem;
+}

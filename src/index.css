@@ -1,0 +1,25 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right bottom, #77A1D3,#79CBCA, #E684AE);
+  background-size: contain;
+  min-height: 100vh;
+}

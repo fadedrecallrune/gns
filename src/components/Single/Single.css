@@ -1,0 +1,35 @@
+.single_component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .single {
+    width: 47rem;
+    background: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .single_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20rem;
+}
+
+
+.single_item {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-left: 1.5rem;
+    color: black;
+    font-size: 2.5rem;
+    }
